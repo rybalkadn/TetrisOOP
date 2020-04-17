@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="TetrisCore.ClassicShapeSet" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAAAAQAAAAAAAEAAAAAAAABAAAAIAAACIAg=</HashCode>
+      <FileName>ClassicShapeSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TetrisCore.MoveEventArgs">
+    <Position X="10" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates\MoveEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisCore.RowsEventArgs">
+    <Position X="12.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates\RowsEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisCore.UserEventArgs">
+    <Position X="7.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Delegates\UserEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisCore.RandomShapeGenerator" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAE=</HashCode>
+      <FileName>RandomShapeGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="TetrisCore.Cell">
+    <Position X="10" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Cell.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TetrisCore.GameLevel">
+    <Position X="0.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAQAQCAAAAQABAAAAAAAAAAA=</HashCode>
+      <FileName>GameLevel.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="TetrisCore.IShapeGenerator">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IShapeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TetrisCore.IShapeSet">
+    <Position X="3.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAAAIAg=</HashCode>
+      <FileName>Interfaces\IShapeSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TetrisCore.GameCommand">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAIQgAAAAAAAAA=</HashCode>
+      <FileName>GameCommand.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="TetrisCore.MoveEventHandler">
+    <Position X="10" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates\MoveEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="TetrisCore.RowsEventHandler">
+    <Position X="12.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates\RowsEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="TetrisCore.UserEventHandler">
+    <Position X="7.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Delegates\UserEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

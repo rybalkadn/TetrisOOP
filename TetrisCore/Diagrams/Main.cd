@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="TetrisCore.UserEventArgs">
+    <Position X="11.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Delegates\UserEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisCore.MoveEventArgs">
+    <Position X="6.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates\MoveEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisCore.RowsEventArgs">
+    <Position X="8.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates\RowsEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TetrisCore.Cell">
+    <Position X="6.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Cell.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TetrisCore.GameLevel">
+    <Position X="6.25" Y="5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAQAQCAAAAQABAAAAAAAAAAA=</HashCode>
+      <FileName>GameLevel.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="TetrisCore.IGame">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgAggAAAAigAAgoAAACAAAAAAAGAAAAFAAAgAQgAAAA=</HashCode>
+      <FileName>Interfaces\IGame.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TetrisCore.IShapeSet">
+    <Position X="3.75" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAAAIAg=</HashCode>
+      <FileName>Interfaces\IShapeSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TetrisCore.IGameFieldView">
+    <Position X="3.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAACAAAAEAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGameFieldView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TetrisCore.IShapeView">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IShapeView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TetrisCore.ITetrisUI">
+    <Position X="8.75" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITetrisUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TetrisCore.GameCommand">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAIQgAAAAAAAAA=</HashCode>
+      <FileName>GameCommand.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
